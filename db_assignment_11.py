@@ -73,3 +73,5 @@ def jsonToPython():
 					str += "\tself." + v + " = " + v + "\n\t"
 				str += "\n"
 		f.write(str)
+
+jsonToPython()
